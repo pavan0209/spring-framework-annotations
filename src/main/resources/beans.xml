@@ -1,0 +1,13 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="
+       http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!-- Setter Injection -->
+    <bean id="student" class="org.pavan.Student">
+        <property name="name" value="Pavavn"/>
+        <property name="interestedCourse" value="Java FullStack"/>
+        <property name="hobby" value="Cricket"/>
+    </bean>
+</beans>
