@@ -6,7 +6,7 @@ public class College {
 
     private Principal principal;
 
-    public College(Principal principal) {
+    public void setPrincipal(Principal principal) {
         this.principal = principal;
     }
 

@@ -13,7 +13,8 @@ public class CollegeConfig {
 
     @Bean
     public College collegeBean() {        // method name(collegeBean) = bean id
-        College college = new College(principalBean());
+        College college = new College();
+        college.setPrincipal(principalBean());
         return college;
     }
 }
