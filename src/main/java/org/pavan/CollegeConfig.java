@@ -6,7 +6,7 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 public class CollegeConfig {
 
-    @Bean
+    @Bean({"colBean", "collegeBean"})
     public College collegeBean() {        // method name = bean id
         College college = new College();
         return college;

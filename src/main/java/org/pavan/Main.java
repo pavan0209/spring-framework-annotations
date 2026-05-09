@@ -14,7 +14,7 @@ public class Main {
 
         ApplicationContext context = new AnnotationConfigApplicationContext(CollegeConfig.class);
 
-        College college = context.getBean("collegeBean", College.class);
+        College college = context.getBean("colBean", College.class);
         System.out.println(college);
 
     }
