@@ -11,5 +11,8 @@ public class Main {
         Student pavan = context.getBean("student", Student.class);
         pavan.displayInfo();
 
+        College college = context.getBean("collegeBean", College.class);
+        System.out.println(college);
+
     }
 }

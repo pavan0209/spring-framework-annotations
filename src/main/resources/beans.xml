@@ -12,4 +12,6 @@
 
     <bean id="student" class="org.pavan.Student"/>
 
+    <context:component-scan base-package="org.pavan"/>
+
 </beans>
