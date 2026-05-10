@@ -1,5 +1,8 @@
 package org.pavan;
 
+import org.springframework.stereotype.Component;
+
+@Component
 public class Principal {
 
     public void principalInfo() {
